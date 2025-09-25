@@ -62,6 +62,9 @@ Llama models are gated. Authenticate one of these ways:
 - Output JSON is coerced to the expected schema even if models return lists/objects.
 - For B200 GPUs, prefer CUDA 12.8 PyTorch wheels when managing your own environment.
 
+## Future work
+- Compare a cascaded ASR → text LLM summarization pipeline against the LALM audio‑first approach, focusing on speaker separation purity and summary faithfulness; report and visualize results across datasets/models.
+
 ## .gitignore hygiene
 To avoid committing caches and secrets:
 ```
