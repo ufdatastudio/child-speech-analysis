@@ -24,10 +24,6 @@ Primary goal: Evaluate whether Large Audio Language Models (LALMs) can (1) separ
 - Do LALM‑derived child‑only summaries match or exceed text‑first baselines in quality and speaker purity?
 - How close are model summaries to human expert summaries, and which model variants do best?
 
-## Data paths
-- Transcripts (default):
-  `/orange/ufdatastudios/c.okocha/child__speech_analysis/Cws/transcript/Voices-CWS/interview`
-- Outputs: `<basename>_child_summary.json` saved next to each transcript.
 
 ## Run the batch summarizer (text LLM baseline)
 - Slurm (recommended):
@@ -51,23 +47,9 @@ python /orange/ufdatastudios/c.okocha/child__speech_analysis/models/Llama.py \
   - Measure speaker purity in outputs and compare to text‑first baseline.
 - Note: AF‑3 setup and run scripts may live in a separate workspace; integrate pointers or wrappers here as they are finalized.
 
-## Hugging Face access (Llama)
-Llama models are gated. Authenticate one of these ways:
-- Save a token to `~/.cache/huggingface/token` or `${PROJECT}/.cache/huggingface/token` (chmod 600).
-- Or export before submit: `export HUGGING_FACE_HUB_TOKEN=hf_...` (and `sbatch --export=ALL ...`).
-- Ensure access to `meta-llama/Meta-Llama-3.1-8B-Instruct` on Hugging Face.
 
 ## Notes
 - Summarizer filters `CHI:`/`Child:` lines when available; otherwise the prompt enforces child‑only content.
 - Output JSON is coerced to the expected schema even if models return lists/objects.
 - For B200 GPUs, prefer CUDA 12.8 PyTorch wheels when managing your own environment.
 
-## Future work
-- Compare a cascaded ASR → text LLM summarization pipeline against the LALM audio‑first approach, focusing on speaker separation purity and summary faithfulness; report and visualize results across datasets/models.
-
-## .gitignore hygiene
-To avoid committing caches and secrets:
-```
-.cache/
-**/token
-```
