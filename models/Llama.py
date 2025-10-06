@@ -16,14 +16,13 @@ DEFAULT_TRANSCRIPTS_DIR = \
 
 MODEL_ID = "meta-llama/Meta-Llama-3.1-8B-Instruct"
 
-# User-specified instruction
+# User-specified instruction (force strict JSON output)
 DEFAULT_PROMPT = (
     "You are a Speech-Language Pathologist. Summarize ONLY the child’s responses from the interview—"
-    "exclude all adult/caregiver/clinician speech. If speaker labels exist (e.g., CHI/Child), use only "
-    "those lines; if not, include only lines clearly spoken by the child. Do not add facts not in the "
-    "child’s words. Return a JSON object with exactly two keys: \"summary\" (five sentences, child "
-    "content only) and \"quotes\" (an array of two short verbatim child quotes as evidence). Do not "
-    "include any extra text."
+    "exclude all adult/caregiver/clinician speech.\n\n"
+    "Output MUST be a single JSON object ONLY (no prose before or after).\n"
+    "Schema: {\"summary\": string}.\n"
+    "Keep the summary concise, faithful, and specific to the child’s speech."
 )
 
 
@@ -231,7 +230,13 @@ def process_transcript_file(
     child_only_text = "\n".join(child_lines) if (had_labels and child_lines) else None
     messages = build_messages(prompt_instructions, raw_text, child_only_text)
     llm_text = generate_response(messages, tokenizer, model)
-    result = parse_summary_json(llm_text)
+    try:
+        result = parse_summary_json(llm_text)
+    except Exception:
+        # Fallback: accept raw text as the summary if JSON was not returned
+        fallback_summary = (llm_text or "").strip()
+        result = {"summary": fallback_summary, "quotes": []}
+        print("[warn] falling back to raw text summary for", path.name)
     return result
 
 
@@ -266,6 +271,12 @@ def main():
         help="Overwrite existing JSON outputs",
     )
     parser.add_argument(
+        "--combined_out",
+        type=str,
+        default="/orange/ufdatastudios/c.okocha/child__speech_analysis/results/Interview/Llama/interview_llama_outputs.json",
+        help="Path to write a single JSON mapping audio_id -> summary",
+    )
+    parser.add_argument(
         "--max_new_tokens",
         type=int,
         default=512,
@@ -289,6 +300,7 @@ def main():
         print(f"No .txt files found in {input_dir}")
         return
 
+    combined_summaries: Dict[str, str] = {}
     for txt_path in txt_files:
         out_path = txt_path.with_name(f"{txt_path.stem}_child_summary.json")
         if out_path.exists() and not args.overwrite:
@@ -298,8 +310,22 @@ def main():
             result = process_transcript_file(txt_path, tokenizer, model, args.prompt)
             save_json(out_path, result)
             print(f"[ok] {txt_path.name} -> {out_path.name}")
+
+            # Derive audio_id from filename prefix (e.g., 08f_clean_with_speakers -> 08f)
+            audio_id = txt_path.stem.split("_")[0]
+            combined_summaries[audio_id] = str(result.get("summary", "")).strip()
         except Exception as e:
             print(f"[error] {txt_path.name}: {e}")
+
+    # Write combined JSON mapping audio_id -> summary (ignore quotes)
+    try:
+        combined_out_path = Path(args.combined_out)
+        combined_out_path.parent.mkdir(parents=True, exist_ok=True)
+        with combined_out_path.open("w", encoding="utf-8") as f:
+            json.dump(combined_summaries, f, ensure_ascii=False, indent=2)
+        print(f"[ok] wrote combined summaries to {combined_out_path}")
+    except Exception as e:
+        print(f"[error] failed to write combined summaries: {e}")
 
 
 if __name__ == "__main__":

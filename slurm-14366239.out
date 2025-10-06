@@ -1,0 +1,83 @@
+===== GPU Info =====
+Tue Sep 30 19:01:04 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.148.08             Driver Version: 570.148.08     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA B200                    On  |   00000000:9D:00.0 Off |                    0 |
+| N/A   24C    P0            138W / 1000W |       0MiB / 183359MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA B200                    On  |   00000000:DF:00.0 Off |                    0 |
+| N/A   26C    P0            137W / 1000W |       0MiB / 183359MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+/orange/ufdatastudios/c.okocha/child__speech_analysis/.venv/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:31<01:35, 31.81s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:05<01:05, 32.67s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:32<00:30, 30.33s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:41<00:00, 21.74s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:41<00:00, 25.30s/it]
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+[error] 08f_clean_with_speakers.txt: Model output did not contain JSON
+[error] 08fb_clean_with_speakers.txt: Model output did not contain JSON
+[error] 09f_clean_with_speakers.txt: Model output did not contain JSON
+[error] 09m_clean_with_speakers.txt: Model output did not contain JSON
+[error] 10m_clean_with_speakers.txt: Model output did not contain JSON
+[error] 10ma_clean_with_speakers.txt: Model output did not contain JSON
+[error] 10mb_clean_with_speakers.txt: Model output did not contain JSON
+[error] 11f_clean_with_speakers.txt: Model output did not contain JSON
+[error] 11m_clean_with_speakers.txt: Model output did not contain JSON
+[error] 11mb_clean_with_speakers.txt: Model output did not contain JSON
+[error] 12ma_clean_with_speakers.txt: Model output did not contain JSON
+[error] 12mb_clean_with_speakers.txt: Model output did not contain JSON
+[error] 12mc_clean_with_speakers.txt: Model output did not contain JSON
+[error] 13f_clean_with_speakers.txt: Model output did not contain JSON
+[error] 13m_clean_with_speakers.txt: Model output did not contain JSON
+[error] 14f_clean_with_speakers.txt: Model output did not contain JSON
+[error] 14m_clean_with_speakers.txt: Model output did not contain JSON
+[error] 16fa_clean_with_speakers.txt: Model output did not contain JSON
+[error] 16fb_clean_with_speakers.txt: Model output did not contain JSON
+[error] 16fc_clean_with_speakers.txt: Model output did not contain JSON
+[error] 16m_clean_with_speakers.txt: Model output did not contain JSON
+[error] 17f_clean_with_speakers.txt: Model output did not contain JSON
+[error] 17fb_clean_with_speakers.txt: Model output did not contain JSON
+[error] 504_clean_with_speakers.txt: Model output did not contain JSON
+[error] 505_clean_with_speakers.txt: Model output did not contain JSON
+[error] 506_clean_with_speakers.txt: Model output did not contain JSON
+[ok] wrote combined summaries to /orange/ufdatastudios/c.okocha/child__speech_analysis/results/Interview/Llama/interview_llama_outputs.json
+Job completed.
