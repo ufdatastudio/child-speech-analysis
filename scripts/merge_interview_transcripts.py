@@ -46,11 +46,12 @@ def write_csv_rows(path: Path, rows: List[Dict[str, str]], fieldnames: List[str]
 
 def merge_transcripts_into_csv() -> None:
     rows, fieldnames = load_csv_rows(CSV_PATH)
-    # Ensure both 'Transcript' (Title case) and 'transcript' (lowercase) columns exist
+    # Ensure only 'Transcript' (Title case) column is kept; drop 'transcript' if present
     if "Transcript" not in fieldnames:
         fieldnames.append("Transcript")
-    if "transcript" not in fieldnames:
-        fieldnames.append("transcript")
+    # If lowercase version exists, remove it from fieldnames and rows
+    if "transcript" in fieldnames:
+        fieldnames = [fn for fn in fieldnames if fn != "transcript"]
 
     audio_to_text = build_audioid_to_transcript()
 
@@ -64,8 +65,10 @@ def merge_transcripts_into_csv() -> None:
         if text is None:
             missing += 1
             continue
+        # Remove stale lowercase key if present in row
+        if "transcript" in row:
+            row.pop("transcript", None)
         row["Transcript"] = text
-        row["transcript"] = text
         updated += 1
 
     write_csv_rows(CSV_PATH, rows, fieldnames)
