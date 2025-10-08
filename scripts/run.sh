@@ -41,7 +41,7 @@ export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 python "${BASE_DIR}/models/Llama.py" \
   --input_dir "${TRANSCRIPTS_DIR}" \
   --model_id "meta-llama/Meta-Llama-3.1-8B-Instruct" \
-  --max_new_tokens 4096 \
+  --max_new_tokens 2048 \
   --temperature 0.2
 
 echo "Job completed."

@@ -1,0 +1,109 @@
+===== GPU Info =====
+Wed Oct  8 16:12:11 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.148.08             Driver Version: 570.148.08     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA B200                    On  |   00000000:43:00.0 Off |                    0 |
+| N/A   24C    P0            138W / 1000W |       0MiB / 183359MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA B200                    On  |   00000000:52:00.0 Off |                    0 |
+| N/A   28C    P0            143W / 1000W |       0MiB / 183359MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+/orange/ufdatastudios/c.okocha/child__speech_analysis/.venv/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:23<01:09, 23.04s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:30<01:38, 49.08s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:53<00:37, 37.43s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:59<00:00, 24.82s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:59<00:00, 29.85s/it]
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128009 for open-end generation.
+[warn] falling back to raw text summary for 08f_clean_with_speakers.txt
+[ok] 08f_clean_with_speakers.txt -> 08f_clean_with_speakers_child_summary.json
+[warn] falling back to raw text summary for 08fb_clean_with_speakers.txt
+[ok] 08fb_clean_with_speakers.txt -> 08fb_clean_with_speakers_child_summary.json
+[warn] falling back to raw text summary for 09f_clean_with_speakers.txt
+[ok] 09f_clean_with_speakers.txt -> 09f_clean_with_speakers_child_summary.json
+[warn] falling back to raw text summary for 09m_clean_with_speakers.txt
+[ok] 09m_clean_with_speakers.txt -> 09m_clean_with_speakers_child_summary.json
+[warn] falling back to raw text summary for 10m_clean_with_speakers.txt
+[ok] 10m_clean_with_speakers.txt -> 10m_clean_with_speakers_child_summary.json
+[warn] falling back to raw text summary for 10ma_clean_with_speakers.txt
+[ok] 10ma_clean_with_speakers.txt -> 10ma_clean_with_speakers_child_summary.json
+[warn] falling back to raw text summary for 10mb_clean_with_speakers.txt
+[ok] 10mb_clean_with_speakers.txt -> 10mb_clean_with_speakers_child_summary.json
+[warn] falling back to raw text summary for 11f_clean_with_speakers.txt
+[ok] 11f_clean_with_speakers.txt -> 11f_clean_with_speakers_child_summary.json
+[warn] falling back to raw text summary for 11m_clean_with_speakers.txt
+[ok] 11m_clean_with_speakers.txt -> 11m_clean_with_speakers_child_summary.json
+[warn] falling back to raw text summary for 11mb_clean_with_speakers.txt
+[ok] 11mb_clean_with_speakers.txt -> 11mb_clean_with_speakers_child_summary.json
+[warn] falling back to raw text summary for 12ma_clean_with_speakers.txt
+[ok] 12ma_clean_with_speakers.txt -> 12ma_clean_with_speakers_child_summary.json
+[warn] falling back to raw text summary for 12mb_clean_with_speakers.txt
+[ok] 12mb_clean_with_speakers.txt -> 12mb_clean_with_speakers_child_summary.json
+[warn] falling back to raw text summary for 12mc_clean_with_speakers.txt
+[ok] 12mc_clean_with_speakers.txt -> 12mc_clean_with_speakers_child_summary.json
+[warn] falling back to raw text summary for 13f_clean_with_speakers.txt
+[ok] 13f_clean_with_speakers.txt -> 13f_clean_with_speakers_child_summary.json
+[warn] falling back to raw text summary for 13m_clean_with_speakers.txt
+[ok] 13m_clean_with_speakers.txt -> 13m_clean_with_speakers_child_summary.json
+[warn] falling back to raw text summary for 14f_clean_with_speakers.txt
+[ok] 14f_clean_with_speakers.txt -> 14f_clean_with_speakers_child_summary.json
+[warn] falling back to raw text summary for 14m_clean_with_speakers.txt
+[ok] 14m_clean_with_speakers.txt -> 14m_clean_with_speakers_child_summary.json
+[warn] falling back to raw text summary for 16fa_clean_with_speakers.txt
+[ok] 16fa_clean_with_speakers.txt -> 16fa_clean_with_speakers_child_summary.json
+[warn] falling back to raw text summary for 16fb_clean_with_speakers.txt
+[ok] 16fb_clean_with_speakers.txt -> 16fb_clean_with_speakers_child_summary.json
+[warn] falling back to raw text summary for 16fc_clean_with_speakers.txt
+[ok] 16fc_clean_with_speakers.txt -> 16fc_clean_with_speakers_child_summary.json
+[warn] falling back to raw text summary for 16m_clean_with_speakers.txt
+[ok] 16m_clean_with_speakers.txt -> 16m_clean_with_speakers_child_summary.json
+[warn] falling back to raw text summary for 17f_clean_with_speakers.txt
+[ok] 17f_clean_with_speakers.txt -> 17f_clean_with_speakers_child_summary.json
+[warn] falling back to raw text summary for 17fb_clean_with_speakers.txt
+[ok] 17fb_clean_with_speakers.txt -> 17fb_clean_with_speakers_child_summary.json
+[warn] falling back to raw text summary for 504_clean_with_speakers.txt
+[ok] 504_clean_with_speakers.txt -> 504_clean_with_speakers_child_summary.json
+[warn] falling back to raw text summary for 505_clean_with_speakers.txt
+[ok] 505_clean_with_speakers.txt -> 505_clean_with_speakers_child_summary.json
+[warn] falling back to raw text summary for 506_clean_with_speakers.txt
+[ok] 506_clean_with_speakers.txt -> 506_clean_with_speakers_child_summary.json
+[ok] wrote combined summaries to /orange/ufdatastudios/c.okocha/child__speech_analysis/results/Interview/Llama/interview_llama_outputs.json
+Job completed.

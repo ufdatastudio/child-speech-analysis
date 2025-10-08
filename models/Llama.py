@@ -18,9 +18,7 @@ MODEL_ID = "meta-llama/Meta-Llama-3.1-8B-Instruct"
 
 # User-specified instruction (force strict JSON output)
 DEFAULT_PROMPT = (
-    "You are a Speech-Language Pathologist. Summarize ONLY the child’s responses from the interview—"
-    "exclude all adult/caregiver/clinician speech.\n\n"
-    "Output MUST be a single JSON object ONLY (no prose before or after).\n"
+    "You are a clinical Speech-Language Pathologist. Produce a faithful, objective summary of the child's part of the interview in 3 sentences, do not include the adult or interviewer"
     "Schema: {\"summary\": string}.\n"
     "Keep the summary concise, faithful, and specific to the child’s speech."
 )
@@ -35,14 +33,15 @@ def read_text_file(path: Path) -> str:
         return f.read()
 
 
-CHILD_LABEL_PATTERN = re.compile(r"^\s*(CHI|Child|CHILD|C)\s*:\s*(.*)$", re.IGNORECASE)
+# Treat lines labeled with CHI or PAR (optionally numbered like PAR1) as child speech
+CHILD_LABEL_PATTERN = re.compile(r"^\s*(CHI|PAR\d*)\s*:\s*(.*)$", re.IGNORECASE)
 
 
 def extract_child_lines(raw_text: str) -> Tuple[List[str], bool]:
     """
     Returns (child_lines, had_labels)
     - child_lines: only child-attributed utterances if labels exist; otherwise empty list
-    - had_labels: True if we detected speaker labels like CHI:/Child:
+    - had_labels: True if we detected speaker labels like CHI: or PAR:/PAR1:
     """
     child_lines: List[str] = []
     had_labels = False
