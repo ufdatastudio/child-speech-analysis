@@ -25,8 +25,8 @@ model = Qwen2AudioForConditionalGeneration.from_pretrained(
 # -----------------
 # 2. Paths
 # -----------------
-audio_folder = "/orange/ufdatastudios/c.okocha/child__speech_analysis/Cws/Reading"
-output_json = "reading_qwe2_outputs.json"
+audio_folder = "/orange/ufdatastudios/c.okocha/child__speech_analysis/Cws/Interview"
+output_json = "interview_qwe2_outputs.json"
 
 # -----------------
 # 3. Process all audio files
@@ -44,7 +44,7 @@ for filename in os.listdir(audio_folder):
         {"role": "system", "content": "You are a clinical Speech-Language Pathologist."},
         {"role": "user", "content": [
             {"type": "audio", "audio_path": file_path},
-            {"type": "text", "text": "Produce a faithful, objective summary of the child’s speech in few sentences."}
+            {"type": "text", "text": "Produce a faithful, objective summary of the child’s speech in 3 sentences. Do not include the adult or interviewer"}
         ]},
     ]
 
