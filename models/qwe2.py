@@ -26,7 +26,7 @@ model = Qwen2AudioForConditionalGeneration.from_pretrained(
 # 2. Paths
 # -----------------
 audio_folder = "/orange/ufdatastudios/c.okocha/child__speech_analysis/Cws/Interview"
-output_json = "interview_qwe2_outputs.json"
+output_json = "reading_qwe2_outputs.json"
 
 # -----------------
 # 3. Process all audio files
