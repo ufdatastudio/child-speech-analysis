@@ -1,0 +1,211 @@
+[
+  {
+    "judge_model": "qwen2",
+    "audio_id": "09f",
+    "model_name": "AF35_summary",
+    "score_overall": 4,
+    "score_fluency": 5,
+    "score_faithfulness": 3,
+    "score_coverage": 4,
+    "score_usefulness": 4,
+    "rationale": "The summary captures the essence of Harriet Tubman's role and achievements but lacks depth in describing her methods and the scale of her rescues. It is fluent and clear but could be more comprehensive for educational purposes."
+  },
+  {
+    "judge_model": "qwen2",
+    "audio_id": "09m",
+    "model_name": "AF35_summary",
+    "score_overall": 4,
+    "score_fluency": 5,
+    "score_faithfulness": 3,
+    "score_coverage": 4,
+    "score_usefulness": 4,
+    "rationale": "The summary captures the essence of the story with good fluency and usefulness for potential users. However, it lacks some details present in the reference summary, affecting faithfulness and coverage."
+  },
+  {
+    "judge_model": "qwen2",
+    "audio_id": "10m",
+    "model_name": "AF35_summary",
+    "score_overall": 4,
+    "score_fluency": 5,
+    "score_faithfulness": 3,
+    "score_coverage": 4,
+    "score_usefulness": 4,
+    "rationale": "The summary captures the essence of the story with good fluency and usefulness, but lacks some specific details found in the reference summary."
+  },
+  {
+    "judge_model": "qwen2",
+    "audio_id": "10ma",
+    "model_name": "AF35_summary",
+    "score_overall": 4,
+    "score_fluency": 5,
+    "score_faithfulness": 3,
+    "score_coverage": 4,
+    "score_usefulness": 4,
+    "rationale": "The summary is fluent and maintains a clear narrative, but lacks depth in describing the context and motivations behind the missing items, which reduces its faithfulness and usefulness for detailed analysis."
+  },
+  {
+    "judge_model": "qwen2",
+    "audio_id": "10mb",
+    "model_name": "AF35_summary",
+    "score_overall": 3,
+    "score_fluency": 4,
+    "score_faithfulness": 2,
+    "score_coverage": 3,
+    "score_usefulness": 3,
+    "rationale": "The summary lacks detail and context, focusing narrowly on the ghost theme without providing a full picture of the story. It could be more useful with additional context and detail."
+  },
+  {
+    "judge_model": "qwen2",
+    "audio_id": "11f",
+    "model_name": "AF35_summary",
+    "score_overall": 4,
+    "score_fluency": 5,
+    "score_faithfulness": 3,
+    "score_coverage": 4,
+    "score_usefulness": 4,
+    "rationale": "The summary is fluent and maintains a clear narrative, but it lacks detail and context, particularly in distinguishing between the plumber and the neighbor Paul. It also does not capture the emotional aspect of Paul's discomfort."
+  },
+  {
+    "judge_model": "qwen2",
+    "audio_id": "11mb",
+    "model_name": "AF35_summary",
+    "score_overall": 4,
+    "score_fluency": 5,
+    "score_faithfulness": 3,
+    "score_coverage": 4,
+    "score_usefulness": 4,
+    "rationale": "The summary captures the essence of the story but omits key elements such as the identity of the actual detective and the nature of the stolen items. It is fluent and useful for understanding the main plot, but lacks detail."
+  },
+  {
+    "judge_model": "qwen2",
+    "audio_id": "12ma",
+    "model_name": "AF35_summary",
+    "score_overall": 4,
+    "score_fluency": 5,
+    "score_faithfulness": 4,
+    "score_coverage": 4,
+    "score_usefulness": 5,
+    "rationale": "The summary is concise, fluent, and captures the essence of Harriet Tubman's role in the Underground Railroad. However, it lacks depth and detail compared to the reference summary."
+  },
+  {
+    "judge_model": "qwen2",
+    "audio_id": "12mc",
+    "model_name": "AF35_summary",
+    "score_overall": 4,
+    "score_fluency": 5,
+    "score_faithfulness": 4,
+    "score_coverage": 4,
+    "score_usefulness": 5,
+    "rationale": "The summary is concise, fluent, and captures the essence of Harriet Tubman's role accurately. However, it lacks specific details about her methods and the risks involved in her rescues."
+  },
+  {
+    "judge_model": "qwen2",
+    "audio_id": "13f",
+    "model_name": "AF35_summary",
+    "score_overall": 3,
+    "score_fluency": 4,
+    "score_faithfulness": 2,
+    "score_coverage": 3,
+    "score_usefulness": 3,
+    "rationale": "The summary captures the main theme but lacks detail and context, making it less useful for educational purposes."
+  },
+  {
+    "judge_model": "qwen2",
+    "audio_id": "13m",
+    "model_name": "AF35_summary",
+    "score_overall": 4,
+    "score_fluency": 5,
+    "score_faithfulness": 4,
+    "score_coverage": 4,
+    "score_usefulness": 5,
+    "rationale": "The summary is concise and fluent, accurately captures the essence of Harriet Tubman's role and challenges, but lacks depth in describing the Underground Railroad's broader context and Harriet's specific methods beyond tricks and disguises."
+  },
+  {
+    "judge_model": "qwen2",
+    "audio_id": "14f",
+    "model_name": "AF35_summary",
+    "score_overall": 4,
+    "score_fluency": 5,
+    "score_faithfulness": 4,
+    "score_coverage": 4,
+    "score_usefulness": 5,
+    "rationale": "The summary is clear and fluent, accurately captures the essence of Harriet Tubman's role in the Underground Railroad, and is useful for educational purposes. However, it lacks some specific details that would enhance its completeness."
+  },
+  {
+    "judge_model": "qwen2",
+    "audio_id": "14m",
+    "model_name": "AF35_summary",
+    "score_overall": 4,
+    "score_fluency": 4,
+    "score_faithfulness": 3,
+    "score_coverage": 4,
+    "score_usefulness": 4,
+    "rationale": "The summary captures the main theme and setting accurately but lacks specific details such as the reason for Alice's isolation and the nature of her interaction with the ghost."
+  },
+  {
+    "judge_model": "qwen2",
+    "audio_id": "16fa",
+    "model_name": "AF35_summary",
+    "score_overall": 4,
+    "score_fluency": 5,
+    "score_faithfulness": 3,
+    "score_coverage": 4,
+    "score_usefulness": 4,
+    "rationale": "The summary captures the essence of the child's experience but lacks depth in describing the region's history and geography, focusing more on personal impressions and speech patterns."
+  },
+  {
+    "judge_model": "qwen2",
+    "audio_id": "16fb",
+    "model_name": "AF35_summary",
+    "score_overall": 4,
+    "score_fluency": 4,
+    "score_faithfulness": 4,
+    "score_coverage": 4,
+    "score_usefulness": 4,
+    "rationale": "The summary captures the essence of the reference but lacks depth in describing the region's unique cultural and architectural identity and the specific influences beyond Central European."
+  },
+  {
+    "judge_model": "qwen2",
+    "audio_id": "16fc",
+    "model_name": "AF35_summary",
+    "score_overall": 4,
+    "score_fluency": 5,
+    "score_faithfulness": 3,
+    "score_coverage": 4,
+    "score_usefulness": 4,
+    "rationale": "The summary is fluent and captures the essence of Harriet Tubman's role, but lacks depth in explaining her methods and the broader context of the underground railroad."
+  },
+  {
+    "judge_model": "qwen2",
+    "audio_id": "17f",
+    "model_name": "AF35_summary",
+    "score_overall": 4,
+    "score_fluency": 5,
+    "score_faithfulness": 4,
+    "score_coverage": 4,
+    "score_usefulness": 5,
+    "rationale": "The summary captures the essence of Friuli's scenic beauty and cultural heritage accurately and fluently, though it could benefit from more detailed information to enhance completeness."
+  },
+  {
+    "judge_model": "qwen2",
+    "audio_id": "17fb",
+    "model_name": "AF35_summary",
+    "score_overall": 4,
+    "score_fluency": 5,
+    "score_faithfulness": 4,
+    "score_coverage": 4,
+    "score_usefulness": 5,
+    "rationale": "The summary is fluent and clear, accurately captures the essence of the story, and provides enough detail without being overly verbose. However, it could benefit from including more specific details about the suspicious events."
+  },
+  {
+    "judge_model": "qwen2",
+    "audio_id": "506",
+    "model_name": "AF35_summary",
+    "score_overall": 4,
+    "score_fluency": 5,
+    "score_faithfulness": 3,
+    "score_coverage": 4,
+    "score_usefulness": 4,
+    "rationale": "The summary is fluent and uses clear language, but it lacks detail about the specific activities like creating signs, displays, and shelving. It also does not mention the newspaper campaign or the hope to attract customers and offer bargains."
+  }
+]
