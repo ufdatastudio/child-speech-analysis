@@ -1,0 +1,25 @@
+judge_model,audio_id,model_name,score_overall,score_fluency,score_faithfulness,score_coverage,score_purity,score_usefulness,rationale
+qwen2,08f,Kimi_summary,4,4,4,4,5,4,The summary captures the essence of the child's experience but lacks some specific details found in the reference summary.
+qwen2,08fb,Kimi_summary,4,4,3,4,5,4,The summary captures the essence of the child's speech but lacks some details and nuances present in the reference summary.
+qwen2,09f,Kimi_summary,3,4,3,4,5,4,"The summary captures the essence of the child's experience but lacks specific details about acceptance, comfort with stuttering, and the impact on social interactions."
+qwen2,09m,Kimi_summary,4,5,4,4,5,4,"The summary captures the essence of the child's speech accurately and fluently, but lacks specific details about the stutter and the effectiveness of therapy."
+qwen2,10m,Kimi_summary,4,5,4,4,5,4,The summary captures the essence of the child's experience but lacks specific details like age of onset and coping strategies.
+qwen2,10ma,Kimi_summary,4,4,4,4,5,4,The summary captures the essence of the child's speech but lacks some specific details and nuances present in the reference summary.
+qwen2,10mb,Kimi_summary,4,5,4,4,5,4,The summary captures the essence of the child's preferences and comfort levels but lacks some specific details from the reference summary.
+qwen2,11f,Kimi_summary,4,4,3,4,5,4,"The summary captures the essence of the child's experience but lacks specific details such as enjoyment of singing in karaoke and anticipation for the event. It also includes some adult context (attending a conference), which was not present in the reference summary."
+qwen2,11m,Kimi_summary,3,4,3,4,5,4,The summary captures the essence of the child's experience but lacks depth in specific details and emotional context.
+qwen2,11mb,Kimi_summary,4,4,4,4,5,4,The summary captures the essence of the child's speech but lacks some specific details and uses a metaphor ('car on a bump') instead of direct language.
+qwen2,12ma,Kimi_summary,3,4,2,3,5,4,"The summary lacks detail and nuance compared to the reference, focusing narrowly on camp activities rather than the child's broader insights and experiences."
+qwen2,12mb,Kimi_summary,3,4,2,3,5,3,The summary lacks depth in capturing the nuances of the child's perspective on stuttering and its impact on their self-perception and coping strategies.
+qwen2,12mc,Kimi_summary,3,4,3,4,5,4,"The summary captures the essence of the child's speech but lacks specific details about the onset, improvement, worsening, triggers, and coping strategies."
+qwen2,13m,Kimi_summary,3,4,2,3,5,4,"The summary lacks faithfulness in capturing the child's specific experiences and feelings about speech therapy and stuttering, and includes an irrelevant detail about meeting other children at a conference."
+qwen2,14f,Kimi_summary,4,4,3,4,5,4,The summary captures the essence of the child's activities and feelings but lacks specific details about the teen group and stuttering experiences.
+qwen2,14m,Kimi_summary,4,4,3,4,5,4,The summary captures the essence of the child's speech but lacks specific details and context provided in the reference summary.
+qwen2,16fa,Kimi_summary,3,4,3,4,5,4,The summary captures the essence of the child's stutter but lacks depth in describing its variability and triggers. It also does not include the child's acceptance of their stutter or the role of a supportive speech therapist.
+qwen2,16fb,Kimi_summary,4,4,3,4,5,4,"The summary captures the essence of the child's experience but lacks depth in detailing the impact of workshops, the preference for a specific therapy approach, and the nuanced perspective on speech therapy goals."
+qwen2,16fc,Kimi_summary,3,4,2,3,5,4,"The summary lacks detail and depth, missing key points about the child's improved confidence in social situations and struggles with online communication. It also includes an adult perspective (speech therapy) not present in the reference."
+qwen2,16m,Kimi_summary,3,4,3,4,5,4,The summary captures the essence of the child's experience but lacks depth and detail found in the reference summary.
+qwen2,17f,Kimi_summary,4,4,4,4,5,4,The summary captures the essence of the child's speech but lacks some specific details and context provided in the reference summary.
+qwen2,504,Kimi_summary,4,5,4,4,5,4,"The summary captures the essence of the child's desires and activities but lacks detail on the child's self-awareness and specific challenges, and does not mention the child's nervousness or the impact on speech."
+qwen2,505,Kimi_summary,4,4,3,4,5,4,The summary captures the essence of the child's speech but lacks specific details and nuances present in the reference summary.
+qwen2,506,Kimi_summary,4,5,4,4,5,4,The summary captures the essence of the child's speech but lacks some specific details and nuances present in the reference summary.

@@ -188,9 +188,9 @@ def main():
                                 args.max_new_tokens, args.temperature)
             # Cleanup after each judge to prevent OOM
             torch.cuda.empty_cache()
-            print(f"✅ Completed {jname} evaluation")
+            print(f"Completed {jname} evaluation")
         except Exception as e:
-            print(f"❌ Failed {jname} evaluation: {e}")
+            print(f"Failed {jname} evaluation: {e}")
             continue
     print(f"\n✅ All judge evaluations complete.")
 

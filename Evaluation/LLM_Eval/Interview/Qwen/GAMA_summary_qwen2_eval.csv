@@ -1,0 +1,27 @@
+judge_model,audio_id,model_name,score_overall,score_fluency,score_faithfulness,score_coverage,score_purity,score_usefulness,rationale
+qwen2,08f,GAMA_summary,3,3,2,3,5,3,"The summary lacks clarity and misses key points made by the child, focusing instead on speech patterns rather than content."
+qwen2,08fb,GAMA_summary,3,4,3,4,5,4,The summary captures the essence of the child's speech but lacks specific details and context provided in the reference summary.
+qwen2,09f,GAMA_summary,3,4,2,3,5,3,"The summary lacks depth and misses key points from the reference, focusing too much on the speech duration rather than content."
+qwen2,09m,GAMA_summary,3,4,2,3,5,3,"The summary lacks clarity and misses key points made by the child, focusing instead on the tone rather than the content."
+qwen2,10m,GAMA_summary,3,4,2,3,5,3,"The summary lacks detail and context, focusing narrowly on the pause in speech rather than the broader issues of stuttering and coping strategies."
+qwen2,10ma,GAMA_summary,3,4,2,3,5,3,The summary captures the essence of the child's speech but lacks specific details and context provided in the reference summary.
+qwen2,10mb,GAMA_summary,3,4,2,3,5,4,"The summary lacks clarity on the child's preferences and experiences, focusing instead on a response to another speaker. It does not cover all main points and includes an irrelevant detail about responding to another's speech."
+qwen2,11f,GAMA_summary,3,3,2,3,5,3,"The summary lacks clarity and misses key points from the reference, focusing mainly on the child's speech characteristics rather than content."
+qwen2,11m,GAMA_summary,3,4,2,3,5,3,"The summary lacks depth and misses key points from the reference, focusing more on the child's speech style rather than content."
+qwen2,11mb,GAMA_summary,3,3,2,3,5,3,The summary lacks depth and fails to capture the child's detailed experiences and feelings about stuttering.
+qwen2,12ma,GAMA_summary,2,3,1,2,5,2,"The summary lacks coherence and fails to capture the essence of the child's speech, focusing instead on unrelated elements like the horse and adult interactions."
+qwen2,12mb,GAMA_summary,3,4,2,3,5,3,"The summary lacks clarity and misses key points from the reference, focusing too much on technical aspects rather than the child's perspective."
+qwen2,12mc,GAMA_summary,2,3,1,2,5,2,"The summary lacks coherence and fails to capture the essence of the child's speech, focusing on irrelevant activities instead of the described stuttering issues."
+qwen2,13f,GAMA_summary,3,4,2,3,5,3,"The summary lacks clarity and misses key points from the reference, focusing instead on the form of the speech rather than its content."
+qwen2,13m,GAMA_summary,3,4,2,3,5,3,"The summary lacks clarity and misses key points made by the child, focusing instead on a potential misunderstanding or question rather than a clear statement of the child's experience."
+qwen2,14f,GAMA_summary,3,3,2,3,5,3,"The summary lacks clarity and misses key points from the reference, focusing mainly on the child's speech duration rather than content."
+qwen2,14m,GAMA_summary,3,3,2,3,5,3,The summary lacks depth and fails to capture the child's stuttering issues and learning about stuttering in detail.
+qwen2,16fa,GAMA_summary,3,4,2,3,5,3,The summary lacks depth in capturing the child's stuttering experience and focuses too much on the speech style rather than the content.
+qwen2,16fb,GAMA_summary,2,3,1,2,5,2,"The summary lacks clarity and misses key points made by the child, focusing instead on the format of the speech rather than its content."
+qwen2,16fc,GAMA_summary,3,4,2,3,5,3,"The summary lacks detail and context, missing key points from the reference summary. It is somewhat fluent and pure in capturing only the child's speech, but not very useful for professionals needing comprehensive insights."
+qwen2,16m,GAMA_summary,2,3,1,2,5,2,"The summary lacks coherence and fails to capture the essence of the child's speech, focusing too much on the mode of delivery rather than the content."
+qwen2,17f,GAMA_summary,3,4,2,3,5,3,"The summary lacks clarity and misses key points made by the child, focusing instead on the delivery style rather than content."
+qwen2,17fb,GAMA_summary,3,4,2,3,5,3,"The summary lacks detail and context, focusing too much on the speech duration rather than the content. It is somewhat fluent but not entirely accurate in reflecting the child's experience and does not cover all main points."
+qwen2,504,GAMA_summary,3,4,2,3,5,3,The summary lacks depth and fails to capture the child's broader concerns about speech improvement and social interaction.
+qwen2,505,GAMA_summary,3,4,2,3,5,3,"The summary captures some key points but lacks detail and context, making it less useful for specific applications."
+qwen2,506,GAMA_summary,3,4,2,3,5,3,"The summary lacks depth and misses key points made by the child, focusing instead on a superficial aspect of their speech."

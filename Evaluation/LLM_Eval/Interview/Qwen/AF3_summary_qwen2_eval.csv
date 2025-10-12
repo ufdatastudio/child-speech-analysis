@@ -1,0 +1,25 @@
+judge_model,audio_id,model_name,score_overall,score_fluency,score_faithfulness,score_coverage,score_purity,score_usefulness,rationale
+qwen2,08fb,AF3_summary,4,4,3,4,5,4,The summary captures the essence of the child's activities and experiences but lacks specific details and context provided in the reference summary.
+qwen2,09f,AF3_summary,4,5,3,4,5,4,"The summary captures the essence of the child's discussion on overcoming stuttering and appreciating speech therapy, though it lacks specific details about the conference and the child's feelings towards new people."
+qwen2,09m,AF3_summary,4,4,4,4,5,4,The summary captures the essence of the child's speech but lacks specific details about the activities and stutter management strategies mentioned.
+qwen2,10ma,AF3_summary,4,5,4,4,5,4,The summary captures the essence of the child's speech but lacks some specific details and context provided in the reference.
+qwen2,10mb,AF3_summary,4,4,3,4,5,4,The summary captures the essence of the child's preferences and experiences but lacks some specific details from the reference summary.
+qwen2,11f,AF3_summary,4,4,4,4,5,4,The summary captures the essence of the child's speech but lacks specific details such as the duration of confidence improvement and the number of friends attending the karaoke event.
+qwen2,11m,AF3_summary,3,4,2,3,5,3,"The summary lacks detail and context, focusing mainly on the child's personal experience without mentioning specific strategies or the importance of kindness and patience."
+qwen2,11mb,AF3_summary,4,4,4,4,5,4,The summary captures the essence of the child's experience but lacks specific details about stuttering and coping strategies.
+qwen2,12ma,AF3_summary,4,5,4,4,5,4,"The summary captures the essence of the child's speech accurately and fluently, though it omits specific examples and advice given by the child."
+qwen2,12mb,AF3_summary,4,5,4,4,5,4,The summary captures the essence of the child's perspective but lacks specific details mentioned in the reference summary.
+qwen2,12mc,AF3_summary,3,4,2,3,5,3,"The summary lacks depth and misses key points about stuttering severity, improvement, worsening due to specific events, coping strategies, and the impact on daily life."
+qwen2,13f,AF3_summary,4,4,3,4,5,4,The summary captures the essence of the child's experience but lacks specific details and nuances present in the reference summary.
+qwen2,13m,AF3_summary,4,4,3,4,5,4,"The summary captures the essence of the child's speech but lacks specific details about speech therapy and stuttering strategies, which were mentioned in the reference summary."
+qwen2,14f,AF3_summary,3,4,3,3,5,3,"The summary captures the essence of the child's speech but lacks detail and context, making it less useful for potential users."
+qwen2,14m,AF3_summary,4,5,4,4,5,4,The summary captures the essence of the child's speech but lacks specific details and context provided in the reference summary.
+qwen2,16fa,AF3_summary,4,5,4,4,5,4,The summary captures the essence of the child's experience but lacks specific details and nuance present in the reference summary.
+qwen2,16fb,AF3_summary,3,4,2,3,5,3,"The summary lacks detail and nuance compared to the reference, making it less useful for professionals and potentially confusing for parents or researchers."
+qwen2,16fc,AF3_summary,4,5,4,4,5,4,"The summary captures the essence of the child's experiences and challenges, though it lacks specific details about the stuttering therapy and the supportive relationship with the speech therapist."
+qwen2,16m,AF3_summary,4,4,4,4,5,4,The summary captures the essence of the child's speech but lacks specific details and nuances present in the reference summary.
+qwen2,17f,AF3_summary,4,4,3,4,5,4,The summary captures the essence of the child's speech but lacks specific details about interactions with older adults who stutter and the child's personal reflection on their own stuttering experience.
+qwen2,17fb,AF3_summary,4,5,4,4,5,4,"The summary captures the essence of the child's speech but lacks specific details about the duration of attendance, the impact of the convention, and the improvement in managing stuttering."
+qwen2,504,AF3_summary,4,5,4,4,5,4,The summary captures the essence of the child's desires and activities but lacks specific details about challenges and coping mechanisms.
+qwen2,505,AF3_summary,3,4,3,4,5,4,The summary captures the essence of the child's statements but lacks some specific details and nuances present in the reference summary.
+qwen2,506,AF3_summary,4,5,4,4,5,4,The summary captures the essence of the child's speech but lacks some specific details and nuances present in the reference summary.

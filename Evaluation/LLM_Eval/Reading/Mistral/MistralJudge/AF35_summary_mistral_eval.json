@@ -1,0 +1,211 @@
+[
+  {
+    "judge_model": "mistral",
+    "audio_id": "09f",
+    "model_name": "AF35_summary",
+    "score_overall": 2,
+    "score_fluency": 3,
+    "score_faithfulness": 2,
+    "score_coverage": 1,
+    "score_usefulness": 1,
+    "rationale": "The summary does not provide any factual information about Harriet Tubman or her role in the Underground Railroad. It only describes the style of the narration, which is not relevant to the evaluation criteria."
+  },
+  {
+    "judge_model": "mistral",
+    "audio_id": "09m",
+    "model_name": "AF35_summary",
+    "score_overall": 3,
+    "score_fluency": 4,
+    "score_faithfulness": 2,
+    "score_coverage": 2,
+    "score_usefulness": 2,
+    "rationale": "The summary is not overall accurate to the reference summary, lacks key details, and does not provide a clear understanding of the story."
+  },
+  {
+    "judge_model": "mistral",
+    "audio_id": "10m",
+    "model_name": "AF35_summary",
+    "score_overall": 4,
+    "score_fluency": 4,
+    "score_faithfulness": 3,
+    "score_coverage": 3,
+    "score_usefulness": 3,
+    "rationale": "The summary is fluent and readable, but it does not accurately represent the main points of the story, lacks coherence, and is not faithful to the original text."
+  },
+  {
+    "judge_model": "mistral",
+    "audio_id": "10ma",
+    "model_name": "AF35_summary",
+    "score_overall": 3,
+    "score_fluency": 4,
+    "score_faithfulness": 2,
+    "score_coverage": 2,
+    "score_usefulness": 1,
+    "rationale": "The model summary does not accurately represent the main points and details of the reference summary, is not useful for potential users as it does not provide the necessary information, and lacks faithfulness to the original text."
+  },
+  {
+    "judge_model": "mistral",
+    "audio_id": "10mb",
+    "model_name": "AF35_summary",
+    "score_overall": 3,
+    "score_fluency": 3,
+    "score_faithfulness": 2,
+    "score_coverage": 2,
+    "score_usefulness": 1,
+    "rationale": "The model summary is not fluent, coherent, or faithful to the reference summary. It does not accurately represent the main points and lacks completeness. It may not be useful for potential users as it does not provide an accurate summary of the story."
+  },
+  {
+    "judge_model": "mistral",
+    "audio_id": "11f",
+    "model_name": "AF35_summary",
+    "score_overall": 3,
+    "score_fluency": 5,
+    "score_faithfulness": 2,
+    "score_coverage": 1,
+    "score_usefulness": 1,
+    "rationale": "The model summary does not accurately represent the main points or events in the reference summary, and it does not provide a coherent summary of the story."
+  },
+  {
+    "judge_model": "mistral",
+    "audio_id": "11mb",
+    "model_name": "AF35_summary",
+    "score_overall": 2,
+    "score_fluency": 2,
+    "score_faithfulness": 1,
+    "score_coverage": 1,
+    "score_usefulness": 1,
+    "rationale": "The model summary does not accurately represent the reference summary's content, lacks coherence, and is not useful for potential users as it does not capture the main points or events in the original story."
+  },
+  {
+    "judge_model": "mistral",
+    "audio_id": "12ma",
+    "model_name": "AF35_summary",
+    "score_overall": 2,
+    "score_fluency": 5,
+    "score_faithfulness": 1,
+    "score_coverage": 1,
+    "score_usefulness": 1,
+    "rationale": "The model summary does not provide any factual information about Harriet Tubman or the Underground Railroad, and does not meet the criteria for a summary."
+  },
+  {
+    "judge_model": "mistral",
+    "audio_id": "12mc",
+    "model_name": "AF35_summary",
+    "score_overall": 3,
+    "score_fluency": 4,
+    "score_faithfulness": 3,
+    "score_coverage": 2,
+    "score_usefulness": 2,
+    "rationale": "The summary lacks essential details about Harriet Tubman's background as a slave, her actions to help other slaves escape, and the nature of the Underground Railroad. The summary is not very useful for teachers, researchers, or SLPs as it does not provide sufficient information about the subject."
+  },
+  {
+    "judge_model": "mistral",
+    "audio_id": "13f",
+    "model_name": "AF35_summary",
+    "score_overall": 2,
+    "score_fluency": 3,
+    "score_faithfulness": 2,
+    "score_coverage": 1,
+    "score_usefulness": 1,
+    "rationale": "The model summary does not accurately represent the reference summary's content, lacks coherence, and is not useful for potential users as it does not provide a summary of the main points."
+  },
+  {
+    "judge_model": "mistral",
+    "audio_id": "13m",
+    "model_name": "AF35_summary",
+    "score_overall": 4,
+    "score_fluency": 5,
+    "score_faithfulness": 4,
+    "score_coverage": 4,
+    "score_usefulness": 4,
+    "rationale": "The summary is fluent and coherent, but it lacks some factual details about Harriet Tubman's life and the Underground Railroad. It also does not fully cover all the main points as it does not mention that Harriet Tubman led groups of slaves from one point to another on the perilous journey north, hiding during the day and traveling at night. However, the model's summary is useful as it provides a good summary of Harriet Tubman's role and her famous statement."
+  },
+  {
+    "judge_model": "mistral",
+    "audio_id": "14f",
+    "model_name": "AF35_summary",
+    "score_overall": 3,
+    "score_fluency": 5,
+    "score_faithfulness": 2,
+    "score_coverage": 2,
+    "score_usefulness": 1,
+    "rationale": "The summary is fluent and readable, but it does not accurately represent the main points about Harriet Tubman's life and her role in the Underground Railroad. The summary does not cover the essential aspects of her life, such as her escape from slavery, her repeated trips to the south to help other slaves, and her role as a leader of the Underground Railroad."
+  },
+  {
+    "judge_model": "mistral",
+    "audio_id": "14m",
+    "model_name": "AF35_summary",
+    "score_overall": 4,
+    "score_fluency": 4,
+    "score_faithfulness": 4,
+    "score_coverage": 3,
+    "score_usefulness": 4,
+    "rationale": "The summary is fluent and mostly faithful to the reference, but it lacks specific details and coherence, and it does not provide a clear narrative like the reference."
+  },
+  {
+    "judge_model": "mistral",
+    "audio_id": "16fa",
+    "model_name": "AF35_summary",
+    "score_overall": 4,
+    "score_fluency": 4,
+    "score_faithfulness": 4,
+    "score_coverage": 4,
+    "score_usefulness": 4,
+    "rationale": "The summary is fluent and coherent, but it lacks some specific details about the location (Friuli) and the reasons for the speaker's visit (initially for food and wine). The summary is faithful to the main points but not entirely factual, as it refers to the location as a 'remote restaurant' instead of a region. The summary is useful for potential users, but it could be more useful with more specific and accurate information."
+  },
+  {
+    "judge_model": "mistral",
+    "audio_id": "16fb",
+    "model_name": "AF35_summary",
+    "score_overall": 4,
+    "score_fluency": 5,
+    "score_faithfulness": 4,
+    "score_coverage": 4,
+    "score_usefulness": 5,
+    "rationale": "The summary is fluent and readable, but it lacks some specific details about the region's geography and the speaker's initial attraction to the region. The summary is mostly faithful to the reference, but it incorrectly states that the region has German and Central European influences in its people, when the reference only mentions architectural and cultural influences. The summary is useful for potential users as it accurately captures the main points."
+  },
+  {
+    "judge_model": "mistral",
+    "audio_id": "16fc",
+    "model_name": "AF35_summary",
+    "score_overall": 3,
+    "score_fluency": 4,
+    "score_faithfulness": 3,
+    "score_coverage": 2,
+    "score_usefulness": 2,
+    "rationale": "The summary is not comprehensive, lacks essential details about Harriet Tubman's life and the Underground Railroad, and is not entirely factual as it does not mention her work as a conductor or the purpose of the Underground Railroad."
+  },
+  {
+    "judge_model": "mistral",
+    "audio_id": "17f",
+    "model_name": "AF35_summary",
+    "score_overall": 4,
+    "score_fluency": 5,
+    "score_faithfulness": 3,
+    "score_coverage": 3,
+    "score_usefulness": 4,
+    "rationale": "The summary is fluent and readable, but it does not accurately represent the reference summary's content as it does not mention Friuli's fame for white wines, its culinary destination status, or its diverse scenery. The summary covers some main points but is not comprehensive."
+  },
+  {
+    "judge_model": "mistral",
+    "audio_id": "17fb",
+    "model_name": "AF35_summary",
+    "score_overall": 3,
+    "score_fluency": 4,
+    "score_faithfulness": 2,
+    "score_coverage": 2,
+    "score_usefulness": 1,
+    "rationale": "The model summary does not accurately represent the main points and details of the reference summary. It lacks specificity and fails to convey the plumber's suspicions and the missing items."
+  },
+  {
+    "judge_model": "mistral",
+    "audio_id": "506",
+    "model_name": "AF35_summary",
+    "score_overall": 3,
+    "score_fluency": 4,
+    "score_faithfulness": 3,
+    "score_coverage": 3,
+    "score_usefulness": 3,
+    "rationale": "The summary is not entirely faithful to the reference summary, as it mentions specific departments (dress, jewelry, furniture) without context, and it does not mention the anniversary date, the sales promotion, the workmen preparing the store, the newspaper campaign, or the seven floors. The summary is fluent and readable but lacks coherence and completeness."
+  }
+]

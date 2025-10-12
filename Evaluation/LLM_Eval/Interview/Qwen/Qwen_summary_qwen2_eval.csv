@@ -1,0 +1,27 @@
+judge_model,audio_id,model_name,score_overall,score_fluency,score_faithfulness,score_coverage,score_purity,score_usefulness,rationale
+qwen2,08f,Qwen_summary,3,4,2,3,5,3,"The summary lacks faithfulness and completeness, focusing on a single aspect of the child's speech rather than covering the broader points made."
+qwen2,08fb,Qwen_summary,3,4,2,3,5,3,"The summary lacks detail on stuttering and other aspects mentioned in the reference, making it less faithful and complete. It also includes adult input (practicing juggling with a guy) instead of focusing solely on the child's speech."
+qwen2,09f,Qwen_summary,4,5,4,4,5,4,The summary captures the essence of the child's experience but lacks specific details about the learning process and the impact on confidence.
+qwen2,09m,Qwen_summary,3,4,2,3,5,3,"The summary lacks faithfulness and completeness, focusing on swimming instead of social activities mentioned in the reference. It is somewhat fluent and useful for understanding the child's interest in exploring, but misses key points about stuttering and therapy."
+qwen2,10m,Qwen_summary,3,4,2,3,5,3,"The summary lacks detail and context, focusing too much on the child's feelings rather than their coping strategies and experiences."
+qwen2,10ma,Qwen_summary,4,4,3,4,5,4,"The summary captures the essence of the child's activities and feelings but lacks specific details from the reference summary, such as stuttering and speech therapy sessions."
+qwen2,10mb,Qwen_summary,4,5,4,3,5,4,"The summary is clear and fluent, accurately captures the essence of the child's preferences and experiences, but lacks some specific details present in the reference summary."
+qwen2,11f,Qwen_summary,3,4,2,3,5,4,"The summary lacks faithfulness and completeness, focusing on a single aspect of the child's speech instead of covering the full range of points made."
+qwen2,11m,Qwen_summary,3,4,2,3,5,4,"The summary lacks faithfulness and completeness, focusing on general activities instead of specific experiences related to stuttering and speech therapy."
+qwen2,11mb,Qwen_summary,4,5,4,3,5,4,The summary captures the essence of the child's experience but lacks depth in describing specific activities and stuttering challenges.
+qwen2,12ma,Qwen_summary,3,4,2,3,5,3,"The summary lacks faithfulness and completeness, focusing mainly on the child's activities instead of their speech about stuttering."
+qwen2,12mb,Qwen_summary,3,4,2,3,5,3,"The summary lacks depth and misses key points from the reference, focusing mainly on the child's social activities instead of their speech therapy experiences and feelings about stuttering."
+qwen2,12mc,Qwen_summary,2,3,1,2,5,2,"The summary lacks clarity and misses key points from the reference, focusing narrowly on a single aspect of the child's speech rather than providing a comprehensive overview."
+qwen2,13f,Qwen_summary,3,4,2,3,5,3,"The summary lacks detail and context, missing key aspects of the child's experience with stuttering support groups and strategies for managing stuttering."
+qwen2,13m,Qwen_summary,3,4,2,3,5,3,"The summary captures the essence of the child's dislike for long speeches but lacks detail on their speech therapy experience, stuttering strategies, friendships, and aspirations."
+qwen2,14f,Qwen_summary,3,4,2,3,5,4,The summary lacks detail on the child's personal experience with stuttering and does not cover all aspects of the reference summary.
+qwen2,14m,Qwen_summary,4,5,3,4,5,4,The summary captures the essence of the child's speech but lacks specific details such as the duration of being at the location and the impact on fluency. It also includes some generalizations not present in the reference summary.
+qwen2,16fa,Qwen_summary,3,4,2,3,5,3,"The summary lacks faithfulness and completeness, focusing on unrelated activities instead of the child's stutter experience."
+qwen2,16fb,Qwen_summary,3,4,2,3,5,3,"The summary lacks detail and nuance, missing key aspects of the child's experience such as learning about stuttering differences and preferences for therapy approaches. It also does not convey the emotional aspect of the child feeling comfortable with stuttering."
+qwen2,16fc,Qwen_summary,3,4,2,3,5,4,"The summary lacks detail and context, missing key points about confidence, stuttering triggers, and the value of supportive relationships. It also includes activities not mentioned in the reference summary."
+qwen2,16m,Qwen_summary,3,4,3,4,5,4,The summary captures the essence of the child's experience but lacks depth and detail found in the reference summary.
+qwen2,17f,Qwen_summary,4,4,3,4,5,4,The summary captures the essence of the child's experience but lacks depth in describing the impact of stress on stuttering and the child's specific desires.
+qwen2,17fb,Qwen_summary,3,4,2,3,5,3,"The summary lacks depth and misses key aspects of the child's experience, focusing narrowly on social activities instead of the emotional impact and stuttering specifics."
+qwen2,504,Qwen_summary,4,4,3,4,5,4,The summary captures the essence of the child's desires and concerns but lacks detail on specific speech issues and other activities mentioned.
+qwen2,505,Qwen_summary,3,4,3,3,5,4,"The summary captures the essence of the child's experience but lacks detail and context, making it less useful for specific applications like therapy planning."
+qwen2,506,Qwen_summary,3,4,2,3,5,3,"The summary lacks faithfulness and completeness, focusing on activities instead of speech issues. It maintains purity but may not be useful for SLPs or parents seeking specific speech-related insights."
