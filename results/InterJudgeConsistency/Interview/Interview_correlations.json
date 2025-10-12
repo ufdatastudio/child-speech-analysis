@@ -1,0 +1,134 @@
+{
+  "qwen_vs_llama": {
+    "score_overall": {
+      "pearson_r": 0.7313985850918187,
+      "pearson_p": 2.358219004638722e-22,
+      "kendall_tau": 0.6972217942854994,
+      "kendall_p": 2.3818403549588317e-17,
+      "n_samples": 126
+    },
+    "score_fluency": {
+      "pearson_r": 0.5070434067801699,
+      "pearson_p": 1.3733808306600881e-09,
+      "kendall_tau": 0.47965963330444494,
+      "kendall_p": 3.739003969083257e-09,
+      "n_samples": 126
+    },
+    "score_faithfulness": {
+      "pearson_r": 0.7974629195102745,
+      "pearson_p": 5.532094922881979e-29,
+      "kendall_tau": 0.7642851259598199,
+      "kendall_p": 2.379399032492696e-22,
+      "n_samples": 126
+    },
+    "score_coverage": {
+      "pearson_r": 0.6902844685182062,
+      "pearson_p": 3.8444055271095636e-19,
+      "kendall_tau": 0.69805838450448,
+      "kendall_p": 1.492702535871002e-17,
+      "n_samples": 126
+    },
+    "score_purity": {
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "kendall_tau": NaN,
+      "kendall_p": NaN,
+      "n_samples": 126
+    },
+    "score_usefulness": {
+      "pearson_r": 0.6799102611438221,
+      "pearson_p": 2.0538349738294463e-18,
+      "kendall_tau": 0.6421968931993859,
+      "kendall_p": 1.1932732875903032e-15,
+      "n_samples": 126
+    }
+  },
+  "qwen_vs_mistral": {
+    "score_overall": {
+      "pearson_r": 0.7052522899489042,
+      "pearson_p": 3.015887345979664e-20,
+      "kendall_tau": 0.6608089449188783,
+      "kendall_p": 3.5558948056519815e-16,
+      "n_samples": 126
+    },
+    "score_fluency": {
+      "pearson_r": 0.5456319981416734,
+      "pearson_p": 3.922156406299115e-11,
+      "kendall_tau": 0.4924873921506101,
+      "kendall_p": 1.4448261938210128e-09,
+      "n_samples": 126
+    },
+    "score_faithfulness": {
+      "pearson_r": 0.7578395074546245,
+      "pearson_p": 9.448727317134327e-25,
+      "kendall_tau": 0.7116653841971093,
+      "kendall_p": 5.588011150710726e-20,
+      "n_samples": 126
+    },
+    "score_coverage": {
+      "pearson_r": 0.6425382874253008,
+      "pearson_p": 5.056776653978734e-16,
+      "kendall_tau": 0.6570713246345706,
+      "kendall_p": 1.1494205593602675e-15,
+      "n_samples": 126
+    },
+    "score_purity": {
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "kendall_tau": NaN,
+      "kendall_p": NaN,
+      "n_samples": 126
+    },
+    "score_usefulness": {
+      "pearson_r": 0.5818333668801968,
+      "pearson_p": 9.009193914978919e-13,
+      "kendall_tau": 0.5774467752161708,
+      "kendall_p": 1.5970809922838307e-12,
+      "n_samples": 126
+    }
+  },
+  "llama_vs_mistral": {
+    "score_overall": {
+      "pearson_r": 0.7977841539417501,
+      "pearson_p": 5.067460057460271e-29,
+      "kendall_tau": 0.7481962476537484,
+      "kendall_p": 5.528949979789897e-22,
+      "n_samples": 126
+    },
+    "score_fluency": {
+      "pearson_r": 0.5840663500983412,
+      "pearson_p": 7.029241077079315e-13,
+      "kendall_tau": 0.43437609069848926,
+      "kendall_p": 2.8600044331384037e-08,
+      "n_samples": 126
+    },
+    "score_faithfulness": {
+      "pearson_r": 0.8022406064813679,
+      "pearson_p": 1.4758889942013953e-29,
+      "kendall_tau": 0.7533880544740017,
+      "kendall_p": 3.8185544726280886e-22,
+      "n_samples": 126
+    },
+    "score_coverage": {
+      "pearson_r": 0.7621894779570465,
+      "pearson_p": 3.5598018684339024e-25,
+      "kendall_tau": 0.7050411120145321,
+      "kendall_p": 3.0088208212284917e-19,
+      "n_samples": 126
+    },
+    "score_purity": {
+      "pearson_r": 0.2513359804873254,
+      "pearson_p": 0.004527781659487128,
+      "kendall_tau": 0.2496469566924018,
+      "kendall_p": 0.005080800166292469,
+      "n_samples": 126
+    },
+    "score_usefulness": {
+      "pearson_r": 0.8372557363270445,
+      "pearson_p": 2.641837128110152e-34,
+      "kendall_tau": 0.7462006845233994,
+      "kendall_p": 1.4039273818054833e-22,
+      "n_samples": 126
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "qwen_vs_llama": {
+    "score_overall": {
+      "pearson_r": 0.7699828926492422,
+      "pearson_p": 3.2498918853501484e-22,
+      "kendall_tau": 0.7319981581409255,
+      "kendall_p": 1.4134450783158294e-16,
+      "n_samples": 107
+    },
+    "score_fluency": {
+      "pearson_r": 0.6008996315449481,
+      "pearson_p": 7.771853703107713e-12,
+      "kendall_tau": 0.5923463517456989,
+      "kendall_p": 2.368493190289561e-12,
+      "n_samples": 107
+    },
+    "score_faithfulness": {
+      "pearson_r": 0.7892227376559339,
+      "pearson_p": 5.7057963820047346e-24,
+      "kendall_tau": 0.7748335510192834,
+      "kendall_p": 2.0066755731397645e-19,
+      "n_samples": 107
+    },
+    "score_coverage": {
+      "pearson_r": 0.5879099701760119,
+      "pearson_p": 2.7801482210268038e-11,
+      "kendall_tau": 0.6204475713579429,
+      "kendall_p": 1.9340683963910917e-12,
+      "n_samples": 107
+    },
+    "score_usefulness": {
+      "pearson_r": 0.7566306135870898,
+      "pearson_p": 4.296673131103848e-21,
+      "kendall_tau": 0.7321287555561596,
+      "kendall_p": 2.5864204612682272e-18,
+      "n_samples": 107
+    }
+  },
+  "qwen_vs_mistral": {
+    "score_overall": {
+      "pearson_r": 0.7545467963771856,
+      "pearson_p": 6.333205913616021e-21,
+      "kendall_tau": 0.7202021418507129,
+      "kendall_p": 5.056388010644164e-16,
+      "n_samples": 107
+    },
+    "score_fluency": {
+      "pearson_r": 0.5434795411365715,
+      "pearson_p": 1.4584232859475262e-09,
+      "kendall_tau": 0.5289200104411783,
+      "kendall_p": 5.998287780627613e-10,
+      "n_samples": 107
+    },
+    "score_faithfulness": {
+      "pearson_r": 0.7272015804006149,
+      "pearson_p": 7.367448132978313e-19,
+      "kendall_tau": 0.6600667481962121,
+      "kendall_p": 6.466811435288768e-15,
+      "n_samples": 107
+    },
+    "score_coverage": {
+      "pearson_r": 0.5113735504209403,
+      "pearson_p": 1.815862503195271e-08,
+      "kendall_tau": 0.5354014967825672,
+      "kendall_p": 1.4463669803182563e-09,
+      "n_samples": 107
+    },
+    "score_usefulness": {
+      "pearson_r": 0.5665125794971432,
+      "pearson_p": 2.0146048261063784e-10,
+      "kendall_tau": 0.5962157286256065,
+      "kendall_p": 3.750091429940454e-12,
+      "n_samples": 107
+    }
+  },
+  "llama_vs_mistral": {
+    "score_overall": {
+      "pearson_r": 0.7652147523901232,
+      "pearson_p": 8.332760597166643e-22,
+      "kendall_tau": 0.7040517993569744,
+      "kendall_p": 2.3769493742280686e-17,
+      "n_samples": 107
+    },
+    "score_fluency": {
+      "pearson_r": 0.8054128647225239,
+      "pearson_p": 1.3517014182565005e-25,
+      "kendall_tau": 0.7002464453665602,
+      "kendall_p": 7.411674469250294e-18,
+      "n_samples": 107
+    },
+    "score_faithfulness": {
+      "pearson_r": 0.7102085023244535,
+      "pearson_p": 1.0705207682673028e-17,
+      "kendall_tau": 0.6506977164076422,
+      "kendall_p": 2.8041376433983226e-14,
+      "n_samples": 107
+    },
+    "score_coverage": {
+      "pearson_r": 0.6763434898478959,
+      "pearson_p": 1.2999912989543588e-15,
+      "kendall_tau": 0.6335966003842305,
+      "kendall_p": 4.061631224257011e-13,
+      "n_samples": 107
+    },
+    "score_usefulness": {
+      "pearson_r": 0.6471589511634702,
+      "pearson_p": 5.015957121870011e-14,
+      "kendall_tau": 0.6141725118402503,
+      "kendall_p": 8.787023245895663e-13,
+      "n_samples": 107
+    }
+  }
+}

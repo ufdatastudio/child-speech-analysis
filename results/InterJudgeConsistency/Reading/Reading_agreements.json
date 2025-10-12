@@ -1,0 +1,98 @@
+{
+  "qwen_vs_llama": {
+    "score_overall": {
+      "exact_agreement": 0.12149532710280374,
+      "within_1_agreement": 0.6915887850467289,
+      "cohen_kappa": -0.10588235294117654,
+      "n_samples": 107
+    },
+    "score_fluency": {
+      "exact_agreement": 0.17757009345794392,
+      "within_1_agreement": 0.5700934579439252,
+      "cohen_kappa": -0.034838993295966514,
+      "n_samples": 107
+    },
+    "score_faithfulness": {
+      "exact_agreement": 0.16822429906542055,
+      "within_1_agreement": 0.8878504672897196,
+      "cohen_kappa": -0.005809040980143454,
+      "n_samples": 107
+    },
+    "score_coverage": {
+      "exact_agreement": 0.07476635514018691,
+      "within_1_agreement": 0.37383177570093457,
+      "cohen_kappa": -0.041081081081080884,
+      "n_samples": 107
+    },
+    "score_usefulness": {
+      "exact_agreement": 0.12149532710280374,
+      "within_1_agreement": 0.4392523364485981,
+      "cohen_kappa": -0.03605274000824066,
+      "n_samples": 107
+    }
+  },
+  "qwen_vs_mistral": {
+    "score_overall": {
+      "exact_agreement": 0.1588785046728972,
+      "within_1_agreement": 0.4672897196261682,
+      "cohen_kappa": -0.021100625596437217,
+      "n_samples": 107
+    },
+    "score_fluency": {
+      "exact_agreement": 0.16822429906542055,
+      "within_1_agreement": 0.45794392523364486,
+      "cohen_kappa": -0.018720581942661685,
+      "n_samples": 107
+    },
+    "score_faithfulness": {
+      "exact_agreement": 0.308411214953271,
+      "within_1_agreement": 0.8785046728971962,
+      "cohen_kappa": 0.14905964535196137,
+      "n_samples": 107
+    },
+    "score_coverage": {
+      "exact_agreement": 0.102803738317757,
+      "within_1_agreement": 0.3177570093457944,
+      "cohen_kappa": 0.016091954022988464,
+      "n_samples": 107
+    },
+    "score_usefulness": {
+      "exact_agreement": 0.1308411214953271,
+      "within_1_agreement": 0.2616822429906542,
+      "cohen_kappa": 0.06113784319275384,
+      "n_samples": 107
+    }
+  },
+  "llama_vs_mistral": {
+    "score_overall": {
+      "exact_agreement": 0.6074766355140186,
+      "within_1_agreement": 0.9532710280373832,
+      "cohen_kappa": 0.46321070234113715,
+      "n_samples": 107
+    },
+    "score_fluency": {
+      "exact_agreement": 0.5981308411214953,
+      "within_1_agreement": 0.8598130841121495,
+      "cohen_kappa": 0.4601032621450364,
+      "n_samples": 107
+    },
+    "score_faithfulness": {
+      "exact_agreement": 0.6355140186915887,
+      "within_1_agreement": 0.9252336448598131,
+      "cohen_kappa": 0.39433962264150946,
+      "n_samples": 107
+    },
+    "score_coverage": {
+      "exact_agreement": 0.6822429906542056,
+      "within_1_agreement": 0.9345794392523364,
+      "cohen_kappa": 0.44330527926549346,
+      "n_samples": 107
+    },
+    "score_usefulness": {
+      "exact_agreement": 0.5794392523364486,
+      "within_1_agreement": 0.8504672897196262,
+      "cohen_kappa": 0.29180761876746586,
+      "n_samples": 107
+    }
+  }
+}
