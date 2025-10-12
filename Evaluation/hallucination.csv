@@ -1,3 +1,0 @@
-item_id,system_id,annotator_id,error_type,severity,span_start,span_end,rationale,source_support
-10ma,kimi_v1,r1,hallucination,major,72,118,"Claims severity not in transcript","No severity level in child turns"
-10ma,kimi_v1,r1,speaker_leakage,minor,149,175,"Clinician advice included","PAR1: 'Try it again...'"

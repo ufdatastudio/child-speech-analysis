@@ -1,2 +1,0 @@
-{"item_id":"10ma","system_id":"kimi_v1","annotator_id":"r1","error_type":"hallucination","severity":"major","summary_span":{"start":72,"end":118},"rationale":"Claims stuttering severity not in transcript","source_support":"No mention of severity level in child turns"}
-{"item_id":"10ma","system_id":"kimi_v1","annotator_id":"r1","error_type":"speaker_leakage","severity":"minor","summary_span":{"start":149,"end":175},"rationale":"Mentions clinician advice (adult speech)","source_support":"Adult line: PAR1: 'Try it again...'"}
