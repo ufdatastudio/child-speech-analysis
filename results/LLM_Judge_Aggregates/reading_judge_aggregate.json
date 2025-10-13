@@ -1,0 +1,252 @@
+{
+  "llama": {
+    "AF35": {
+      "score_overall": 2.8947368421052633,
+      "score_fluency": 3.8947368421052633,
+      "score_faithfulness": 2.3157894736842106,
+      "score_coverage": 2.3157894736842106,
+      "score_purity": null,
+      "score_usefulness": 2.736842105263158
+    },
+    "GAMA": {
+      "score_overall": 1.6363636363636365,
+      "score_fluency": 1.8181818181818181,
+      "score_faithfulness": 1.2272727272727273,
+      "score_coverage": 1.1363636363636365,
+      "score_purity": null,
+      "score_usefulness": 1.3181818181818181
+    },
+    "Kimi": {
+      "score_overall": 1.5,
+      "score_fluency": 1.2727272727272727,
+      "score_faithfulness": 1.0454545454545454,
+      "score_coverage": 1.0454545454545454,
+      "score_purity": null,
+      "score_usefulness": 1.0454545454545454
+    },
+    "Qwen": {
+      "score_overall": 2.3181818181818183,
+      "score_fluency": 2.9545454545454546,
+      "score_faithfulness": 1.7272727272727273,
+      "score_coverage": 1.5909090909090908,
+      "score_purity": null,
+      "score_usefulness": 2.0
+    },
+    "Salmon": {
+      "score_overall": 2.727272727272727,
+      "score_fluency": 3.3636363636363638,
+      "score_faithfulness": 2.090909090909091,
+      "score_coverage": 2.3636363636363638,
+      "score_purity": null,
+      "score_usefulness": 2.6363636363636362
+    }
+  },
+  "mistral": {
+    "AF35": {
+      "score_overall": 3.1052631578947367,
+      "score_fluency": 4.052631578947368,
+      "score_faithfulness": 2.5789473684210527,
+      "score_coverage": 2.263157894736842,
+      "score_purity": null,
+      "score_usefulness": 2.210526315789474
+    },
+    "GAMA": {
+      "score_overall": 1.0909090909090908,
+      "score_fluency": 1.0454545454545454,
+      "score_faithfulness": 1.0,
+      "score_coverage": 1.0,
+      "score_purity": null,
+      "score_usefulness": 1.0
+    },
+    "Kimi": {
+      "score_overall": 1.0454545454545454,
+      "score_fluency": 0.9545454545454546,
+      "score_faithfulness": 0.9090909090909091,
+      "score_coverage": 0.9090909090909091,
+      "score_purity": null,
+      "score_usefulness": 0.9090909090909091
+    },
+    "Qwen": {
+      "score_overall": 2.272727272727273,
+      "score_fluency": 3.0454545454545454,
+      "score_faithfulness": 2.0454545454545454,
+      "score_coverage": 1.5909090909090908,
+      "score_purity": null,
+      "score_usefulness": 1.6818181818181819
+    },
+    "Salmon": {
+      "score_overall": 2.6363636363636362,
+      "score_fluency": 3.5,
+      "score_faithfulness": 2.4545454545454546,
+      "score_coverage": 2.090909090909091,
+      "score_purity": null,
+      "score_usefulness": 2.1818181818181817
+    }
+  },
+  "qwen": {
+    "AF35": {
+      "score_overall": 3.8947368421052633,
+      "score_fluency": 4.7894736842105265,
+      "score_faithfulness": 3.263157894736842,
+      "score_coverage": 3.8947368421052633,
+      "score_purity": null,
+      "score_usefulness": 4.2105263157894735
+    },
+    "GAMA": {
+      "score_overall": 2.9545454545454546,
+      "score_fluency": 3.772727272727273,
+      "score_faithfulness": 1.9090909090909092,
+      "score_coverage": 2.727272727272727,
+      "score_purity": null,
+      "score_usefulness": 2.727272727272727
+    },
+    "Kimi": {
+      "score_overall": 3.0,
+      "score_fluency": 3.6363636363636362,
+      "score_faithfulness": 2.0454545454545454,
+      "score_coverage": 3.0,
+      "score_purity": null,
+      "score_usefulness": 2.8636363636363638
+    },
+    "Qwen": {
+      "score_overall": 3.5454545454545454,
+      "score_fluency": 4.454545454545454,
+      "score_faithfulness": 2.727272727272727,
+      "score_coverage": 3.3636363636363638,
+      "score_purity": null,
+      "score_usefulness": 3.6363636363636362
+    },
+    "Salmon": {
+      "score_overall": 3.590909090909091,
+      "score_fluency": 4.2272727272727275,
+      "score_faithfulness": 2.909090909090909,
+      "score_coverage": 3.409090909090909,
+      "score_purity": null,
+      "score_usefulness": 3.6363636363636362
+    }
+  },
+  "overall": {
+    "AF35": {
+      "score_overall": 3.2982456140350878,
+      "score_fluency": 4.245614035087719,
+      "score_faithfulness": 2.7192982456140355,
+      "score_coverage": 2.824561403508772,
+      "score_purity": null,
+      "score_usefulness": 3.052631578947368
+    },
+    "AF35_summary": {
+      "score_overall": null,
+      "score_fluency": null,
+      "score_faithfulness": null,
+      "score_coverage": null,
+      "score_purity": null,
+      "score_usefulness": null
+    },
+    "GAMA": {
+      "score_overall": 1.8939393939393938,
+      "score_fluency": 2.2121212121212124,
+      "score_faithfulness": 1.378787878787879,
+      "score_coverage": 1.621212121212121,
+      "score_purity": null,
+      "score_usefulness": 1.6818181818181817
+    },
+    "GAMA_summary": {
+      "score_overall": null,
+      "score_fluency": null,
+      "score_faithfulness": null,
+      "score_coverage": null,
+      "score_purity": null,
+      "score_usefulness": null
+    },
+    "Kimi": {
+      "score_overall": 1.8484848484848484,
+      "score_fluency": 1.9545454545454544,
+      "score_faithfulness": 1.3333333333333333,
+      "score_coverage": 1.6515151515151514,
+      "score_purity": null,
+      "score_usefulness": 1.6060606060606062
+    },
+    "Kimi_summary": {
+      "score_overall": null,
+      "score_fluency": null,
+      "score_faithfulness": null,
+      "score_coverage": null,
+      "score_purity": null,
+      "score_usefulness": null
+    },
+    "Qwen": {
+      "score_overall": 2.7121212121212124,
+      "score_fluency": 3.484848484848485,
+      "score_faithfulness": 2.1666666666666665,
+      "score_coverage": 2.1818181818181817,
+      "score_purity": null,
+      "score_usefulness": 2.4393939393939394
+    },
+    "Qwen_summary": {
+      "score_overall": null,
+      "score_fluency": null,
+      "score_faithfulness": null,
+      "score_coverage": null,
+      "score_purity": null,
+      "score_usefulness": null
+    },
+    "Salmon": {
+      "score_overall": 2.9848484848484844,
+      "score_fluency": 3.696969696969697,
+      "score_faithfulness": 2.484848484848485,
+      "score_coverage": 2.621212121212121,
+      "score_purity": null,
+      "score_usefulness": 2.818181818181818
+    },
+    "Salmon_summary": {
+      "score_overall": null,
+      "score_fluency": null,
+      "score_faithfulness": null,
+      "score_coverage": null,
+      "score_purity": null,
+      "score_usefulness": null
+    }
+  },
+  "nan": {
+    "AF35_summary": {
+      "score_overall": null,
+      "score_fluency": null,
+      "score_faithfulness": null,
+      "score_coverage": null,
+      "score_purity": null,
+      "score_usefulness": null
+    },
+    "GAMA_summary": {
+      "score_overall": null,
+      "score_fluency": null,
+      "score_faithfulness": null,
+      "score_coverage": null,
+      "score_purity": null,
+      "score_usefulness": null
+    },
+    "Kimi_summary": {
+      "score_overall": null,
+      "score_fluency": null,
+      "score_faithfulness": null,
+      "score_coverage": null,
+      "score_purity": null,
+      "score_usefulness": null
+    },
+    "Qwen_summary": {
+      "score_overall": null,
+      "score_fluency": null,
+      "score_faithfulness": null,
+      "score_coverage": null,
+      "score_purity": null,
+      "score_usefulness": null
+    },
+    "Salmon_summary": {
+      "score_overall": null,
+      "score_fluency": null,
+      "score_faithfulness": null,
+      "score_coverage": null,
+      "score_purity": null,
+      "score_usefulness": null
+    }
+  }
+}

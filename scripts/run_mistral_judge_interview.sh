@@ -71,3 +71,4 @@ print('Mistral interview evaluation complete')
 "
 
 echo "===== Mistral Interview Evaluation completed ====="
+
