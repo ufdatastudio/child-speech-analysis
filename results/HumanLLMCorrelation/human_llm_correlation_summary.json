@@ -1,0 +1,25 @@
+{
+  "interview": {
+    "Llama": {
+      "avg_pearson_r": 0.5630776834068805,
+      "avg_cohen_kappa": 0.35740361283340794,
+      "avg_agreement_within_1": 0.8427350427350427,
+      "avg_mae": 0.5793803418803418,
+      "avg_rmse": 0.9282062479067221
+    },
+    "Mistral": {
+      "avg_pearson_r": 0.33753917246117676,
+      "avg_cohen_kappa": 0.08893859771990698,
+      "avg_agreement_within_1": 0.779380341880342,
+      "avg_mae": 0.8792735042735043,
+      "avg_rmse": 1.1369972434418238
+    },
+    "Qwen": {
+      "avg_pearson_r": 0.34823432470783083,
+      "avg_cohen_kappa": 0.0013791620441785152,
+      "avg_agreement_within_1": 0.7300213675213674,
+      "avg_mae": 1.0028846153846154,
+      "avg_rmse": 1.238858228331169
+    }
+  }
+}
